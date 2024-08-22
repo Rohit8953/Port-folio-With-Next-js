@@ -6,7 +6,7 @@ const contact = () => {
   return (
     <section id="contact" className="w-full  bg-gray-900 h-full pb-10">
         <div className="bg-gradient-to-b from-blue-800 to-blue-600 h-96"></div>
-        <div className="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
             <div className="bg-black w-full shadow rounded-2xl border-2 border-transparent dark:border-white/[0.2] group-hover:border-slate-700 p-8 sm:p-12 -mt-72">
                 <p className="text-3xl font-bold leading-7 text-center text-white">Contact me</p>
                 <form action="" method="post">

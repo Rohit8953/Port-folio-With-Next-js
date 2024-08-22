@@ -13,7 +13,7 @@ import instagram from "../app/courses/instagram.png"
 import github from "../app/courses/github.png"
 import linkedin from "../app/courses/linkedin.png"
 import nextjs from "../app/courses/nextjs.png"
-
+import portfolio from "../app/courses/portfolio.png"
 export const data=[
       {
         id: 1,
@@ -49,8 +49,8 @@ export const data=[
       {
         id: 6,
         title: "Portfolio webpage",
-        description: "Optimized for seamless experience across all devices, including mobile, tablet, and desktop.",
-        image:community,
+        description: "This is my portfolio to showcase my Skills, experience and working ability to an organization.",
+        image:portfolio,
         urls:""
       },
     ]

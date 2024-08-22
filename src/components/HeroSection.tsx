@@ -39,7 +39,7 @@ const HeroSection = () => {
           experiences while implementing innovative solutions.
         </p>
         <div className="mt-10">
-          <Link href={"/courses"}>
+          <Link href="https://drive.google.com/file/d/1N_ELLqUf-qxEPe9ovTT_SkbimfNaMQJX/view?usp=drivesdk">
             <Button
               borderRadius="1.75rem"
               className="bg-white dark:bg-black text-black  dark:text-white border-neutral-200 dark:border-slate-800"
