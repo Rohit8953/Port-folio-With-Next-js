@@ -51,7 +51,7 @@ export const data=[
         title: "Portfolio webpage",
         description: "This is my portfolio to showcase my Skills, experience and working ability to an organization.",
         image:portfolio,
-        urls:""
+        urls:"https://port-folio-with-next-js.vercel.app/"
       },
     ]
 
