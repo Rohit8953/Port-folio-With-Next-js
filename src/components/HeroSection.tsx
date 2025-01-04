@@ -25,14 +25,14 @@ const HeroSection = () => {
     },
   ];
   return (
-    <div className="h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+    <div className="h-[35rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="blue" />
 
-      <div className="p-4 relative z-10 w-full text-center">
+      <div className="p-4 relative z-10 w-full text-center pt-20">
         <div className="flex flex-col h-fit items-center justify-center">
           <TypewriterEffectSmooth words={words} />
         </div>
-        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto">
+        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto text-justify">
           As a web developer and coder, I specialize in crafting dynamic and
           functional websites and applications. Proficient in a variety of
           programming languages and frameworks, I create seamless user

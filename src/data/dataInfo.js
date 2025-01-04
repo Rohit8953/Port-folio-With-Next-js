@@ -14,6 +14,10 @@ import github from "../app/courses/github.png"
 import linkedin from "../app/courses/linkedin.png"
 import nextjs from "../app/courses/nextjs.png"
 import portfolio from "../app/courses/portfolio.png"
+import redux from "../app/courses/redux.png"
+import nodejs from "../app/courses/nodejs.png"
+import tps from "../app/courses/tps.png"
+
 export const data=[
       {
         id: 1,
@@ -56,29 +60,37 @@ export const data=[
     ]
 
     export const data2=[
+      
       {
-        image:html,
-        name:"Html"
+        image:css,
+        name:"Css"
       },
       {
         image:javascript,
         name:"Java script"
       },
       {
-        image:css,
-        name:"Css"
-      },
-      {
         image:react,
         name:"React"
       },
       {
+        image:redux,
+        name:"Redux"
+      },
+      {
         image:mongoose,
         name:"Mongodb"
+      },{
+        image:nodejs,
+        name:"Nodejs"
       },
       {
         image:nextjs,
         name:"Next js"
+      },
+      {
+        image:tps,
+        name:"Typescript"
       }
     ]
 

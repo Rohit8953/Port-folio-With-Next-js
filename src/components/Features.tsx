@@ -11,9 +11,9 @@ const Features = () => {
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase"></h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            My Projects
-          </p>
+          <h2 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500 mb-2">
+             My Projects
+        </h2>
         </div>
       </div>
       <div className="mt-10 mx-4">
@@ -28,18 +28,19 @@ const Features = () => {
                  
                   />
                 </div>
-                <div className="p-2 flex flex-col items-center text-center bg-black flex-grow">
+                <div className="p-2 flex flex-col items-center justify-around text-center bg-black flex-grow">
                   <p className="text-lg sm:text-xl text-black dark:text-neutral-200">
                     {course.title}
                   </p>
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                     {course.description}
                   </p>
+                 
                   <Link
                     href={course.urls}
-                    className="flex items-center px-3 p-1 my-1 text-neutral-400 bg-gray-700 group-hover:bg-opacity-40 rounded-md transition duration-300"
+                    className="mt-2 inline-flex items-center px-4 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-md transition duration-300"
                   >
-                    Click here
+                    View Project
                   </Link>
                 </div>
               </BackgroundGradient>
