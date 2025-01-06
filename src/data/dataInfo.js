@@ -33,7 +33,7 @@ export const data=[
         urls:"https://rohit8953.github.io/Internship-Webpages/"
       },{
         id: 3,
-        title: "Calender",
+        title: "Calendar",
         description: "it is completely based on java script concept and reactjs functional concept",
         image:calender,
         urls:"https://calender-assignment-ten.vercel.app/"

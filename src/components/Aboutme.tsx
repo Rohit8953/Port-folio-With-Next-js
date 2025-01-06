@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import rohit from "../app/courses/rohit.jpg";
 import Link from "next/link";
 import { data3 } from "@/data/dataInfo";
+import { BackgroundGradient } from "./ui/background-gradient";
 
 const Aboutme = () => {
   return (
@@ -33,11 +35,13 @@ const Aboutme = () => {
             </div>
           </div>
           <div className="mx-auto">
+          <BackgroundGradient className="rounded-[22px] p-1 ">
             <Image
               src={rohit}
               className="hover:border-2 rounded-2xl overflow-hidden bg-black border border-transparent dark:border-white/[0.7] md:max-w-sm"
               alt="Rohit Kumar Chaurasia"
             />
+             </BackgroundGradient>
           </div>
         </div>
       </div>

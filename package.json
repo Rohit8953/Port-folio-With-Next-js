@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "framer-motion": "^11.15.0",
+    "framer-motion": "^11.16.0",
     "gsap": "^3.12.5",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "14.2.5",
+    "next": "^14.2.22",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.4.0"

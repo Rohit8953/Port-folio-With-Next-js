@@ -15,8 +15,7 @@ const Contact = () => {
             <h2 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500 mb-2">
               Get in Touch
             </h2>
-            <p className="text-gray-400 text-center mb-8">I'd love to hear from you. Send me a message!</p>
-            
+            <p className="text-gray-400 text-center mb-8">I&apos;d love to hear from you. Send me a message!</p>
             <form action="" method="post">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex flex-col">

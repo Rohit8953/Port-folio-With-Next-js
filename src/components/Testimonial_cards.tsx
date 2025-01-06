@@ -11,10 +11,10 @@ const musicSchoolTestimonial = [
   },
   {
     quote: "Developed an Alumni Association Portal to foster lifelong engagement by connecting alumni through directories, events, mentorship, career opportunities, and secure networking",
-    name: "Smart India Hackethon",
+    name: "Smart India Hackathon",
     marks: "",
     title: "SIH-2024 Winner🏆",
-  },,
+  },
   {
     quote: "I am working as a frontend developer, focusing on creating user-centric UIs and integrating APIs to enhance functionality and user experience in web applications at Blue Bricks Pvt. Ltd.",
     name: " Blue Bricks Pvt. Ltd.",
@@ -38,7 +38,7 @@ const musicSchoolTestimonials = [
   },
   {
     quote: "Completed intermediate education at a prestigious institution in Shahganj, Jaunpur, UP, known for academic excellence and discipline.",
-    name: "St. Thomas Enter College Shahganj Jaunpur UP",
+    name: "St. Thomas Inter College Shahganj Jaunpur UP",
     marks: "Percentage 77.7%",
     title: "Intermediate",
   },
@@ -63,7 +63,7 @@ const Testimonial_cards = () => {
         <div className="w-full overflow-hidden mb-24">
           <div className="w-full max-w-7xl mx-auto">
             <InfiniteMovingCards
-              items={musicSchoolTestimonial}
+              items={musicSchoolTestimonial.filter(Boolean)}
               direction="right"
               speed="slow"
             />
@@ -77,7 +77,7 @@ const Testimonial_cards = () => {
         <div className="w-full overflow-hidden">
           <div className="w-full max-w-7xl mx-auto">
             <InfiniteMovingCards
-              items={musicSchoolTestimonials} 
+              items={musicSchoolTestimonials.filter(Boolean)} 
               direction="left"
               speed="slow"
             />
