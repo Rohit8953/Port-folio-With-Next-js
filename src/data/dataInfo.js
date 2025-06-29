@@ -17,6 +17,11 @@ import portfolio from "../app/courses/portfolio.png"
 import redux from "../app/courses/redux.png"
 import nodejs from "../app/courses/nodejs.png"
 import tps from "../app/courses/tps.png"
+import angular from "../app/courses/angular.png"
+import git from "../app/courses/git.png"
+import nestjs from "../app/courses/nestjs.png"
+import mui from "../app/courses/mui.png"
+
 
 export const data=[
       {
@@ -91,7 +96,19 @@ export const data=[
       {
         image:tps,
         name:"Typescript"
-      }
+      },{
+        image:angular,
+        name:"Angular"
+      },{
+        image:mui,
+        name:"Material UI"
+      },{
+        image:git,
+        name:"Git"
+      },{
+        image:nestjs,
+        name:"Nest js"
+      },
     ]
 
 export const data3=[

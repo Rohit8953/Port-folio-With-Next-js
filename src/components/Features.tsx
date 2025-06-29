@@ -7,13 +7,14 @@ import { BackgroundGradient } from "./ui/background-gradient";
 
 const Features = () => {
   return (
-    <section id="projects" className="py-12 bg-gray-900">
+    <section className="py-12 bg-gray-900">
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase"></h2>
           <h2 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500 mb-2">
              My Projects
-        </h2>
+          </h2>
+
         </div>
       </div>
       <div className="mt-10 mx-4">
@@ -25,7 +26,6 @@ const Features = () => {
                   <Image
                     src={course.image}
                     alt={course.title}
-                 
                   />
                 </div>
                 <div className="p-2 flex flex-col items-center justify-around text-center bg-black flex-grow">

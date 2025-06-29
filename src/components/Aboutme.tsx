@@ -1,47 +1,68 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import rohit from "../app/courses/rohit.jpg";
+import rohitKumar from "../app/courses/rohitKumar.png";
 import Link from "next/link";
 import { data3 } from "@/data/dataInfo";
 import { BackgroundGradient } from "./ui/background-gradient";
+import ProfileCard from '../components/ProfileCard'
+import GlassIcons from './glassIcons/GlassIcons'
+import { Icon } from '@iconify/react';
+import { LinkPreviewDemo } from "../components/aboutSection/LinkPreviewDemo";
+import GradientText from "../components/GradientText/GradientText"
+import { BackgroundBeams } from "./ui/background-beams";
+const items = [
+  { icon: <Icon icon="circum:linkedin" width="32" height="32" />, 
+    color: 'blue',
+     label: 'Linkedin',
+     urls: "https://linkedin.com/in/rohit-kumar-chaurasia-220742243" },
+  { icon:  <Icon icon="hugeicons:github-01" width="32" height="32" />,
+     color: 'purple',
+      label: 'Github',
+      urls: "https://github.com/Rohit8953",
+    },
+  { icon:  <Icon icon="pajamas:twitter" width="32" height="32" />, 
+    color: 'indigo',
+     label: 'Twitter',
+      urls: "https://x.com/Rohitch82888068"
+     },
+  { icon:  <Icon icon="prime:instagram" width="32" height="32" />,
+     color: 'red',
+      label: 'Instagram',
+      urls: "https://www.instagram.com/rohitchaurasia2452/"},
+];
 
 const Aboutme = () => {
   return (
-    <section className="bg-black mt-20">
-      <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-8 sm:p-5 p-2">
+    <section className="bg-black mt-10">
+      <div className="container mx-auto py-16 px-0 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-8 sm:p-5">
+
           <div className="max-w-2xl">
-          <h2 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500 mb-2">
-              About me
-        </h2>
-            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300  text-justify">
-            As the proud winner of <span className="text-cyan-400">SIH 2024</span>, I bring a proven track record of innovation and problem-solving to my work as a web developer and coder. I specialize in designing and developing dynamic, functional websites and applications, creating seamless user experiences with proficiency in a variety of programming languages and frameworks. Currently, I am working as a Frontend developer intern at <span className="text-cyan-400">Blue Bricks Pvt. Ltd.</span>, contributing to impactful projects. I am dedicated to continuously refining my skills and staying at the forefront of the ever-evolving digital landscape.
-            </p>
-            <div className="mt-8 flex flex-row gap-4 justify-center">
-              {data3.map((data, index) => {
-                return (
-                  <div key={index} className="flex items-center justify-center">
-                    <Link href={data.urls}>
-                      <Image
-                        src={data.icons}
-                        className="w-10 hover:brightness-150 hover:scale-110 transition-all duration-200 rounded-full"
-                        alt={data.name}
-                      />
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
+            <h2 className="mb-5 -mt-5 text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500">
+                About Me
+            </h2>
+        
+            <LinkPreviewDemo />
+
+            <GlassIcons items={items} className="custom-class"/>
           </div>
+      
           <div className="mx-auto">
-          <BackgroundGradient className="rounded-[22px] p-1 ">
-            <Image
-              src={rohit}
-              className="hover:border-2 rounded-2xl overflow-hidden bg-black border border-transparent dark:border-white/[0.7] md:max-w-sm"
-              alt="Rohit Kumar Chaurasia"
-            />
-             </BackgroundGradient>
+            <ProfileCard
+              name="Rohit Chaurasia"
+              title="Software Engineer"
+              handle="rohitChaurasia"
+              status="Online"
+              contactText="Contact Me"
+              avatarUrl="https://res.cloudinary.com/dti1g8mbd/image/upload/v1750357792/rqj8xrnpkyegt8vrw5fp.png"
+              miniAvatarUrl="https://res.cloudinary.com/dti1g8mbd/image/upload/v1750357792/rqj8xrnpkyegt8vrw5fp.png"
+              showUserInfo={true}
+              enableTilt={true}
+              behindGradient=""
+              innerGradient=""  
+              onContactClick={() => console.log('Contact clicked')}
+            /> 
           </div>
         </div>
       </div>

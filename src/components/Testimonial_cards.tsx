@@ -71,7 +71,7 @@ const Testimonial_cards = () => {
         </div>
 
         <h2 className="text-center text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 mb-16">
-          Education Details
+          Educational Details
         </h2>
         
         <div className="w-full overflow-hidden">

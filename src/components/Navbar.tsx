@@ -16,18 +16,25 @@ const [active, setActive] = useState<string | null>(null);
             </div>
           </MenuItem>
         </Link>
+        <Link href="#experience">
+          <MenuItem setActive={setActive} active={active} item="Experience">
+            <div className="flex flex-col space-y-4 text-sm">
+              <HoveredLink href="#experience">Experience</HoveredLink>
+            </div>
+          </MenuItem>
+        </Link>
         <Link href="#projects">
           <MenuItem setActive={setActive} active={active} item="Projects">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="#projects">My projects</HoveredLink>
+              <HoveredLink href="#projects">Projects</HoveredLink>
             </div>
           </MenuItem>
         </Link>
 
         <Link href="#contact">
-          <MenuItem setActive={setActive} active={active} item="Contact me">
+          <MenuItem setActive={setActive} active={active} item="Contact">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="#contact">Contact me</HoveredLink>
+              <HoveredLink href="#contact">Contact</HoveredLink>
             </div>
           </MenuItem>
         </Link>

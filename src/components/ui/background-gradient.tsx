@@ -30,7 +30,7 @@ export const BackgroundGradient = ({
         transition={
           animate
             ? {
-                duration: 5,
+                duration: 2,
                 repeat: Infinity,
                 repeatType: "reverse",
               }
@@ -51,7 +51,7 @@ export const BackgroundGradient = ({
         transition={
           animate
             ? {
-                duration: 5,
+                duration: 2,
                 repeat: Infinity,
                 repeatType: "reverse",
               }

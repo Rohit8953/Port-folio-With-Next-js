@@ -1,8 +1,9 @@
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
+import ClientLayout from "./clientLayout";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,13 +15,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <div className="relative w-full flex items-center justify-center">
-          <Navbar />
-        </div>
-        {children}
+        <ClientLayout>
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );
