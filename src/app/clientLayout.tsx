@@ -2,7 +2,7 @@
 import Navbar from '@/components/Navbar'
 import React, { useEffect, useState } from 'react'
 import LetterGlitch from '@/components/loadingComp/LetterGlitch'
-const clientLayout = ({ children }: { children: React.ReactNode }) => {
+const ClientLayout = ({ children }: { children: React.ReactNode }) => {
       const [loading, setLoading] = useState(true);
     
       useEffect(() => {
@@ -37,4 +37,4 @@ const clientLayout = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-export default clientLayout
+export default ClientLayout
