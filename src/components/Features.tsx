@@ -26,6 +26,7 @@ const Features = () => {
                   <Image
                     src={course.image}
                     alt={course.title}
+                    fill
                   />
                 </div>
                 <div className="p-2 flex flex-col items-center justify-around text-center bg-black flex-grow">

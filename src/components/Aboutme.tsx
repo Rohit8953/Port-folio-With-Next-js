@@ -34,7 +34,7 @@ const items = [
 
 const Aboutme = () => {
   return (
-    <section className="bg-black mt-10">
+    <section className="bg-black">
       <div className="container mx-auto py-16 px-0 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-8 sm:p-5">
 
