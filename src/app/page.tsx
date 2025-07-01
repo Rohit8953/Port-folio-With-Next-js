@@ -11,7 +11,7 @@ import { BentoGridDemo } from "../components/companyProjects/BentoGridDemo";
 import { TabsDemo } from "../components/personalProjects/TabsDemo"
 export default function Home() {
   return (
-    <main className="min-h-screen  bg-black/[0.95] antialiased bg-grid-white/[0.02]">
+    <main className="min-h-screen w-full bg-black/[0.95] antialiased bg-grid-white/[0.02]">
          <HeroSection/>
          <Aboutme/> 
          <TimelineDemo />
@@ -21,7 +21,7 @@ export default function Home() {
          <Skills/>
          <Testimonial_cards/>
          <Contact/>
-         <Footer/>
+         <Footer/> 
     </main>
   );
 }

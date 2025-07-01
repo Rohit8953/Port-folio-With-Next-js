@@ -30,7 +30,7 @@ const ClientLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
         <div className="relative w-full flex items-center justify-center">
-          <Navbar />
+        <Navbar />
         </div>
         {children}
     </div>

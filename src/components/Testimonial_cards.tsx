@@ -52,7 +52,7 @@ const musicSchoolTestimonials = [
 
 const Testimonial_cards = () => {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-black via-gray-900 to-blue-950 relative py-20">
+    <div className="min-h-screen w-full bg-gradient-to-b from-black via-gray-900 to-blue-950 relative py-20 overflow-hidden">
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
       
       <div className="relative z-10 container mx-auto px-4">
