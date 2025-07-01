@@ -10,9 +10,9 @@ export function LinkPreviewDemo() {
     // intern at <span className="text-cyan-400">Blue Bricks Pvt. Ltd.</span>, contributing to impactful projects.
     //  I am dedicated to continuously refining my skills and staying at the forefront of the ever-evolving digital landscape.
   return (
-    <div className="flex justify-center items-center  flex-col px-4">
+    <div className="flex justify-center items-center flex-col">
       <p
-        className="text-neutral-500 dark:text-neutral-400 text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-justify">
+        className="text-neutral-500 dark:text-neutral-400 text-xl md:text-2xl mx-auto mb-10 text-justify">
         As the proud winner of{" "}
         <LinkPreview url="https://www.linkedin.com/feed/update/urn:li:activity:7274120077833039873/" className="font-bold">
           SIH 2024
@@ -27,7 +27,7 @@ export function LinkPreviewDemo() {
         <LinkPreview url="https://blue-bricks.com/" className="font-bold">
           ABC
         </LinkPreview> */}
-        {" "} company.
+        {/* {" "} company. */}
       </p>
       {/* <p
         className="text-neutral-500 dark:text-neutral-400 text-xl md:text-2xl max-w-3xl mx-auto">

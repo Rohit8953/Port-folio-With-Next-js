@@ -120,7 +120,7 @@ function DummyContent ({ heading, description, src, urls }) {
                 <div className="h-3 w-3 rounded-full animate-pulse bg-green-500 "></div> <span className="animate-pulse text-white" >Live</span>
             </div>
           </div>
-          <p className="pr-4">{description}</p>
+          <p className="pr-4 text-white ">{description}</p>
           <Link href={urls}>
             <Image
               src={src}

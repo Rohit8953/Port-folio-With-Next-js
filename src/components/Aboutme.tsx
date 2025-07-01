@@ -34,16 +34,16 @@ const items = [
 
 const Aboutme = () => {
   return (
-    <section className="bg-black">
-      <div className="container mx-auto py-16 px-0 sm:px-6 lg:px-8">
+    <section className="bg-black ">
+      <div className="container max-w-7xl mx-auto py-16 px-0 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-8 sm:p-5">
 
-          <div className="max-w-2xl">
+          <div className="max-w-2xl p-6 ">
             <h2 className="mb-5 -mt-5 text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500">
                 About Me
             </h2>
         
-            <LinkPreviewDemo />
+            <LinkPreviewDemo /> 
 
             <GlassIcons items={items} className="custom-class"/>
           </div>
