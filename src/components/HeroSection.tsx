@@ -13,7 +13,7 @@ const HeroSection = () => {
       text: "Rohit",
     },
     {
-      text: "Web developer",
+      text: "Fullstack developer",
       className: "text-blue-500 dark:text-blue-500",
     },
     {
@@ -34,13 +34,13 @@ const HeroSection = () => {
           <TypewriterEffectSmooth words={words} />
         </div>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto text-justify">
-          As a web developer and coder, I specialize in crafting dynamic and
+          As a fullstack developer and coder, I specialize in crafting dynamic and
           functional websites and applications. Proficient in a variety of
           programming languages and frameworks, I create seamless user
           experiences while implementing innovative solutions.
         </p>
         <div className="mt-10">
-          <Link href="https://drive.google.com/file/d/1nIGvst8j4jOXU41LoSuQRybnY_H44bz0/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/1RvUMGMpCd1-YZJlA-F9Vm2hmzlPRtTcX/view?usp=sharing">
             <Button
               borderRadius="1.75rem"
               className="bg-white dark:bg-black text-black  dark:text-white border-neutral-200 dark:border-slate-800"

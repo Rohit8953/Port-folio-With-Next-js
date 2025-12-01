@@ -23,10 +23,10 @@ export function LinkPreviewDemo() {
         <LinkPreview url="https://blue-bricks.com/" className="font-bold">
           Blue Bricks
         </LinkPreview>
-        {/* {" "} and {" "}
-        <LinkPreview url="https://blue-bricks.com/" className="font-bold">
-          ABC
-        </LinkPreview> */}
+        {" "} and {" "}
+        <LinkPreview url="https://m-swasth.in/" className="font-bold">
+          M Swasth
+        </LinkPreview>
         {/* {" "} company. */}
       </p>
       {/* <p

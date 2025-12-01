@@ -2,6 +2,7 @@
 
 import { Tabs } from "../ui/tabs";
 import ecommerce from "../../app/courses/ecommerce.png"
+import flex from "../../app/courses/flex.ai.png"
 import Image from "next/image";
 import bookManageApp from "../../app/courses/bookManageApp.png";
 import FinanceTrackerApp from "../../app/courses/FinanceTrackerApp.png";
@@ -23,6 +24,18 @@ export function TabsDemo() {
           description="This project based on to show case the admin data in structured form for analysis"
           src={ecommerce}
           urls="https://full-fledget-ecommerce-com-6svy.vercel.app/"
+         />
+      ),
+    }, {
+      title: "Flex.ai",
+      value: "ai",
+      tech: "Reactjs, Tailwind CSS, Node.js, NeonDB, PostgreSQL, Clerk",
+      content: (
+        <DummyContent
+          heading="flex.ai"
+          description="This project provide content generation services powered by AI to help users create high-quality content quickly and efficiently."
+          src={flex}
+          urls="https://flexai-lac.vercel.app/"
          />
       ),
     },
